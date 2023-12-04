@@ -12,8 +12,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var laravel_nova__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! laravel-nova */ "laravel-nova");
+/* harmony import */ var laravel_nova__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(laravel_nova__WEBPACK_IMPORTED_MODULE_0__);
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  mixins: [],
+  mixins: [laravel_nova__WEBPACK_IMPORTED_MODULE_0__.HandlesValidationErrors],
   props: {
     field: {
       type: Object,
@@ -504,13 +507,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _DefaultField_vue_vue_type_template_id_2229caa4__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DefaultField.vue?vue&type=template&id=2229caa4 */ "./resources/js/components/DefaultField.vue?vue&type=template&id=2229caa4");
 /* harmony import */ var _DefaultField_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DefaultField.vue?vue&type=script&lang=js */ "./resources/js/components/DefaultField.vue?vue&type=script&lang=js");
-/* harmony import */ var _Applications_MAMP_htdocs_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _Applications_MAMP_htdocs_bookkeeping_vendor_codenco_dev_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_Applications_MAMP_htdocs_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_DefaultField_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_DefaultField_vue_vue_type_template_id_2229caa4__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/DefaultField.vue"]])
+const __exports__ = /*#__PURE__*/(0,_Applications_MAMP_htdocs_bookkeeping_vendor_codenco_dev_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_DefaultField_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_DefaultField_vue_vue_type_template_id_2229caa4__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/DefaultField.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -532,13 +535,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _HeadingField_vue_vue_type_template_id_6dba9fca__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HeadingField.vue?vue&type=template&id=6dba9fca */ "./resources/js/components/Detail/HeadingField.vue?vue&type=template&id=6dba9fca");
 /* harmony import */ var _HeadingField_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HeadingField.vue?vue&type=script&lang=js */ "./resources/js/components/Detail/HeadingField.vue?vue&type=script&lang=js");
-/* harmony import */ var _Applications_MAMP_htdocs_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _Applications_MAMP_htdocs_bookkeeping_vendor_codenco_dev_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_Applications_MAMP_htdocs_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_HeadingField_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_HeadingField_vue_vue_type_template_id_6dba9fca__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Detail/HeadingField.vue"]])
+const __exports__ = /*#__PURE__*/(0,_Applications_MAMP_htdocs_bookkeeping_vendor_codenco_dev_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_HeadingField_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_HeadingField_vue_vue_type_template_id_6dba9fca__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Detail/HeadingField.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -560,13 +563,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _HeadingField_vue_vue_type_template_id_42283f48__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HeadingField.vue?vue&type=template&id=42283f48 */ "./resources/js/components/Form/HeadingField.vue?vue&type=template&id=42283f48");
 /* harmony import */ var _HeadingField_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HeadingField.vue?vue&type=script&lang=js */ "./resources/js/components/Form/HeadingField.vue?vue&type=script&lang=js");
-/* harmony import */ var _Applications_MAMP_htdocs_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _Applications_MAMP_htdocs_bookkeeping_vendor_codenco_dev_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_Applications_MAMP_htdocs_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_HeadingField_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_HeadingField_vue_vue_type_template_id_42283f48__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Form/HeadingField.vue"]])
+const __exports__ = /*#__PURE__*/(0,_Applications_MAMP_htdocs_bookkeeping_vendor_codenco_dev_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_HeadingField_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_HeadingField_vue_vue_type_template_id_42283f48__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Form/HeadingField.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -588,13 +591,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _PanelItem_vue_vue_type_template_id_b8f6e448__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PanelItem.vue?vue&type=template&id=b8f6e448 */ "./resources/js/components/PanelItem.vue?vue&type=template&id=b8f6e448");
 /* harmony import */ var _PanelItem_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PanelItem.vue?vue&type=script&lang=js */ "./resources/js/components/PanelItem.vue?vue&type=script&lang=js");
-/* harmony import */ var _Applications_MAMP_htdocs_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _Applications_MAMP_htdocs_bookkeeping_vendor_codenco_dev_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_Applications_MAMP_htdocs_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_PanelItem_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_PanelItem_vue_vue_type_template_id_b8f6e448__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/PanelItem.vue"]])
+const __exports__ = /*#__PURE__*/(0,_Applications_MAMP_htdocs_bookkeeping_vendor_codenco_dev_nova_grid_system_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_PanelItem_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_PanelItem_vue_vue_type_template_id_b8f6e448__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/PanelItem.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -728,6 +731,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_PanelItem_vue_vue_type_template_id_b8f6e448__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./PanelItem.vue?vue&type=template&id=b8f6e448 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/PanelItem.vue?vue&type=template&id=b8f6e448");
 
+
+/***/ }),
+
+/***/ "laravel-nova":
+/*!******************************!*\
+  !*** external "LaravelNova" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = LaravelNova;
 
 /***/ }),
 

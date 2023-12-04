@@ -34,8 +34,10 @@
 </template>
 
 <script>
+import { HandlesValidationErrors, Errors } from "laravel-nova";
+
 export default {
-  mixins: [],
+  mixins: [HandlesValidationErrors],
 
   props: {
     field: { type: Object, required: true },

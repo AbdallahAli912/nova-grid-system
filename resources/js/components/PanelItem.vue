@@ -25,7 +25,9 @@
 </template>
 
 <script>
+import { CopiesToClipboard, FieldValue } from '../mixins';
 export default {
+  mixins: [CopiesToClipboard, FieldValue],
   props: {
     field: {
       type: Object,
@@ -63,17 +65,17 @@ export default {
       return this.fieldName || this.field.name;
     },
 
-    fieldValue() {
-      if (
-        this.field.value === "" ||
-        this.field.value === null ||
-        this.field.value === undefined
-      ) {
-        return false;
-      }
+    // fieldValue() {
+    //   if (
+    //     this.field.value === "" ||
+    //     this.field.value === null ||
+    //     this.field.value === undefined
+    //   ) {
+    //     return false;
+    //   }
 
-      return String(this.field.value);
-    },
+    //   return String(this.field.value);
+    // },
 
     shouldDisplayAsHtml() {
       return this.field.asHtml;

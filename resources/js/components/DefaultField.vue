@@ -9,7 +9,7 @@
           >
             {{ fieldLabel }}
 
-            <span v-if="field.required" class="text-red-500 text-sm">{{
+            <span v-if="field.required" class="text-danger text-sm">{{
               __("*")
             }}</span>
           </form-label>
@@ -19,7 +19,7 @@
         <slot name="field" />
 
         <help-text
-          class="error-text mt-2 text-red-500"
+          class="error-text mt-2 text-danger"
           v-if="showErrors && hasError"
         >
           {{ firstError }}
@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import { HandlesValidationErrors, Errors } from "laravel-nova";
+import { HandlesValidationErrors, Errors } from "../mixins";
 
 export default {
   mixins: [HandlesValidationErrors],
